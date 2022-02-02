@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 3</title>
+    <style>
+        body{
+            background-color: rgb(13, 67, 148);
+        }
+    </style>
+</head>
+<body>
+    <h2>Exercício 3</h2>
+    <p>  Em outro arquivo crie uma cópia do exercício 01 e acrescente uma janela de alerta ou uma escrita no documento HTML <br />
+         que exiba todos os dados inseridos pelo usuário, utilize o conceito de formatação/preparação de strings.
+
+    </p>
+    <script>
+         var nome = window.prompt('Qual é o seu nome ?')
+         var sobrenome = window.prompt('E o seu sobrenome ?')
+         window.alert (`Bem vindo ${nome} ${sobrenome} ! Vamos nos conhecer mais um pouco ?`)
+         var idade = window.prompt('Qual sua idade ?')
+         var animal = window.prompt('Digite seu animal favorito abaixo:')
+         window.alert (`Parabéns, ${idade} anos ! Eu também amo ${animal}.`)
+         var série = window.prompt('Qual sua série ou filme favorito ?')
+         window.alert (`Parece ser interessante... Vou adicionar ${série} à minha lista.`)
+         //Utilizei o $ como uma forma mais dinâmica de programação, mas também é possível utilizar ' + var + '.
+         
+    </script>
+</body>
+</html>

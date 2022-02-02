@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 4</title>
+    <style>
+        body{
+            background-color: rgb(194, 22, 22);
+        }
+    </style>
+</head>
+<body>
+    <h2> Exercício 4 </h2>
+    <p> Vimos que é possível escrever diretamente no documento HTML utilizando JavaScript, descreva como é feito isso e <br />
+        como podemos avançar nesse conceito, por exemplo estilizando/formatando o texto escrito. Dê ao menos um exemplo.
+    </p>
+    <p> A utilização do JavaScript para o recurso textual da página também é uma opção viável que auxilia na inserção de <br />
+        elementos de texto e personalizados ao mesmo tempo. Como exemplo foi possível observar a interação da caixa de prompt com a <br />
+        página abaixo: <br />
+        Exemplo: comando document write para escrever a interação e especificação strong como recurso de formatação. <br />
+        <strong>Observar pelo repositório do GIT para melhor visibilidade.</strong>
+    </p>
+    <script>
+        var nome = window.prompt ('Como você se chama ?')
+        document.write(`Olá, <strong>${nome}</strong>, espero que esteja tudo bem !`)
+    </script>
+</body>
+</html>
